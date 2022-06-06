@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB6B83C427CBABD40074EA48 /* My_Card_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B83C327CBABD40074EA48 /* My_Card_AppApp.swift */; };
+		EB6B83C627CBABD40074EA48 /* My_Card_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B83C527CBABD40074EA48 /* My_Card_App.swift */; };
+		EB6B83C827CBABD50074EA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6B83C727CBABD50074EA48 /* Assets.xcassets */; };
+		EB6B83CB27CBABD50074EA48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6B83CA27CBABD50074EA48 /* Preview Assets.xcassets */; };
+		EB6B83D327CBAE190074EA48 /* photo1645606001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB6B83D227CBAE190074EA48 /* photo1645606001.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB6B83C027CBABD40074EA48 /* My Card App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Card App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6B83C327CBABD40074EA48 /* My_Card_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Card_AppApp.swift; sourceTree = "<group>"; };
+		EB6B83C527CBABD40074EA48 /* My_Card_App.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = My_Card_App.swift; sourceTree = "<group>"; };
+		EB6B83C727CBABD50074EA48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB6B83CA27CBABD50074EA48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB6B83CC27CBABD50074EA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6B83D227CBAE190074EA48 /* photo1645606001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo1645606001.jpeg; path = ../../../Downloads/photo1645606001.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB6B83BD27CBABD40074EA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6B83B727CBABD40074EA48 = {
+			isa = PBXGroup;
+			children = (
+				EB6B83C227CBABD40074EA48 /* My Card App */,
+				EB6B83C127CBABD40074EA48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6B83C127CBABD40074EA48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B83C027CBABD40074EA48 /* My Card App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6B83C227CBABD40074EA48 /* My Card App */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B83C327CBABD40074EA48 /* My_Card_AppApp.swift */,
+				EB6B83C527CBABD40074EA48 /* My_Card_App.swift */,
+				EB6B83C727CBABD50074EA48 /* Assets.xcassets */,
+				EB6B83D227CBAE190074EA48 /* photo1645606001.jpeg */,
+				EB6B83CC27CBABD50074EA48 /* Info.plist */,
+				EB6B83C927CBABD50074EA48 /* Preview Content */,
+			);
+			path = "My Card App";
+			sourceTree = "<group>";
+		};
+		EB6B83C927CBABD50074EA48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B83CA27CBABD50074EA48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB6B83BF27CBABD40074EA48 /* My Card App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6B83CF27CBABD50074EA48 /* Build configuration list for PBXNativeTarget "My Card App" */;
+			buildPhases = (
+				EB6B83BC27CBABD40074EA48 /* Sources */,
+				EB6B83BD27CBABD40074EA48 /* Frameworks */,
+				EB6B83BE27CBABD40074EA48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Card App";
+			productName = "My Card App";
+			productReference = EB6B83C027CBABD40074EA48 /* My Card App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6B83B827CBABD40074EA48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EB6B83BF27CBABD40074EA48 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EB6B83BB27CBABD40074EA48 /* Build configuration list for PBXProject "My Card App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB6B83B727CBABD40074EA48;
+			productRefGroup = EB6B83C127CBABD40074EA48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6B83BF27CBABD40074EA48 /* My Card App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB6B83BE27CBABD40074EA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6B83D327CBAE190074EA48 /* photo1645606001.jpeg in Resources */,
+				EB6B83CB27CBABD50074EA48 /* Preview Assets.xcassets in Resources */,
+				EB6B83C827CBABD50074EA48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6B83BC27CBABD40074EA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6B83C627CBABD40074EA48 /* My_Card_App.swift in Sources */,
+				EB6B83C427CBABD40074EA48 /* My_Card_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB6B83CD27CBABD50074EA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB6B83CE27CBABD50074EA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB6B83D027CBABD50074EA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"My Card App/Preview Content\"";
+				DEVELOPMENT_TEAM = RZ6BP29PRF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "My Card App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gilbert.My-Card-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB6B83D127CBABD50074EA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"My Card App/Preview Content\"";
+				DEVELOPMENT_TEAM = RZ6BP29PRF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "My Card App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gilbert.My-Card-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6B83BB27CBABD40074EA48 /* Build configuration list for PBXProject "My Card App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6B83CD27CBABD50074EA48 /* Debug */,
+				EB6B83CE27CBABD50074EA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6B83CF27CBABD50074EA48 /* Build configuration list for PBXNativeTarget "My Card App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6B83D027CBABD50074EA48 /* Debug */,
+				EB6B83D127CBABD50074EA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6B83B827CBABD40074EA48 /* Project object */;
+}
